@@ -128,3 +128,33 @@ div.case-study-images img{
     margin-bottom: 50px;
     border: 1px solid #dddddd;
 }
+
+/* front page case study */
+
+figure.homepage-featured-work {
+  display: block;
+}
+
+.featured-work {
+  display: inline-block;
+  width: 100%;
+}
+ul.homepage-featured-work {
+  list-style-type: none;
+}
+
+.featured-work h4 {
+  text-align: center;
+}
+
+.featured-work h5 {
+  margin-left: 50px;
+}
+
+.menu-social-media-nav-container {
+  display: inline-block;
+}
+
+#menu-social-media-nav ul li {
+  list-style-type: none;
+}

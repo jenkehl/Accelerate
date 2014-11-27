@@ -158,3 +158,59 @@ ul.homepage-featured-work {
 #menu-social-media-nav ul li {
   list-style-type: none;
 }
+
+/* style contact form */
+#ninja_forms_field_1_div_wrap {
+  float: left;
+  clear: none;
+  width: 47%;
+  margin-right: 35px;
+}
+
+#ninja_forms_field_2_div_wrap {
+  float: left;
+  clear: none;
+  width: 47%;
+}
+
+#ninja_forms_field_3_div_wrap {
+  clear: both;
+}
+
+#ninja_forms_field_5 {
+    background: #45ac9d;
+  color: #fff;
+  font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
+  display: inline-block;
+  float: right;
+  height: 55px;
+  min-width: 250px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 500ms ease;
+  -moz-transition: background 500ms ease;
+  -ms-transition: background 500ms ease;
+  -o-transition: background 500ms ease;
+  transition: background 500ms ease;
+}
+
+#ninja_forms_field_1_label {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+#ninja_forms_field_2_label {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+#ninja_forms_field_3_label {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+#contact-form {
+  margin-left: 150px;
+  margin-right: 150px;
+}

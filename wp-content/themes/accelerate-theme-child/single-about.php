@@ -17,10 +17,10 @@ get_header(); ?>
   <div id="content" role="main">
 
   <?php while ( have_posts() ) : the_post();
-    $content = get_field('content_strategy');
-    $influencer = get_field('influencer_mapping');
-    $social = get_field('social_media_strategy');
-    $design = get_field('design_and_development')
+    $text_1 = get_field('text_1');
+    $text_2 = get_field('text_2');
+    $text_3 = get_field('text_3');
+    $dtext_4 = get_field('text_4')
     $size = "full";
     $image_1 = get_field('image_1');
     $image_2 = get_field('image_2');

@@ -1,13 +1,13 @@
 function create_custom_post_types() {
-   register_post_type( 'case_studies', 'about'
+   register_post_type( 'about',
        array(
            'labels' => array(
-               'name' => __( 'Case Studies' ),
-               'singular_name' => __( 'Case Study' )
+               'name' => __( 'About' ),
+               'singular_name' => __( 'About' )
            ),
            'public' => true,
            'has_archive' => true,
-           'rewrite' => array( 'slug' => 'case-studies' ),
+           'rewrite' => array( 'slug' => 'about' ),
        )
    );
 }

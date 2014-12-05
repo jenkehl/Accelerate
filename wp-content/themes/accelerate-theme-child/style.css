@@ -303,3 +303,18 @@ ul.homepage-featured-work {
   color: red;
   text-align: center;
 }
+
+/*twitter*/
+
+.widget-title {
+  margin-top: 5px;
+}
+
+/*mailchimp*/
+button, input, select, textarea {
+  color: #45ac9d;
+}
+
+.mc4wp-form button,{
+  background: #45ac9d;
+}
